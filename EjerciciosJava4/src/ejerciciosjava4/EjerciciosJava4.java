@@ -8,7 +8,7 @@ public class EjerciciosJava4 {
     public static void main(String[] args) {
         System.out.println("ingrese una frase o palabra: ");
     String frase= rd.nextLine();
-    if (frase.substring(0,1).equals("a")){
+    if (frase.substring(0,1).equalsIgnoreCase("a")){
         System.out.println ("CORRECTO!");
     }else
         System.out.println ("INCORRECTO");

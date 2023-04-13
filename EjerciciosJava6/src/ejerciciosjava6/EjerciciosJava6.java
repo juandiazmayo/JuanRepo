@@ -46,11 +46,11 @@ System.out.println("Ingrese el primer numero entero: ");
         break;
         
         case 5:
-            System.out.println("Está seguro/a que desea salir del programa? responda con S/N");
-            salir = rd.next().charAt(0);
-            if (salir=='S' || salir=='s'){
-                System.out.println("Saliendo del programa.");
-                System.exit(0);
+            System.out.println("¿Está seguro que desea salir del programa (S/N)?");
+                    String respuesta=rd.next();
+                    if (respuesta.equalsIgnoreCase("S")) {
+                        System.out.println("¡Hasta luego!");
+                        x = 5;
             }
         break;
         default:
