@@ -36,5 +36,6 @@ public class ArraysEjercicioExtra4 {
 
         System.out.println("Cantidad de aprobados: " + aprobados);
         System.out.println("Cantidad de desaprobados: " + desaprobados);
+        System.out.println("cheeeee ");
     }
 }
