@@ -39,6 +39,7 @@ public class ArraysEjercicioExtra4 {
         // Imprimimos por pantalla la cantidad de aprobados y desaprobados
         System.out.println("Cantidad de aprobados: " + aprobados);
         System.out.println("Cantidad de desaprobados: " + desaprobados);
+        System.out.println("Este mensaje se lo mando al gorro de lana: kaaaaaaaaaaaaaa");
     }
 }
 
